@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Todo List App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Todo List App</h1>
+    <div id="new-tasklist" class="task-form">
+      <form>
+        <label for="new-task">Task:</label>
+        <input type="text" id="new-task" required>
+        <label for="new-due-date">Due Date:</label>
+        <input type="date" id="new-due-date" required>
+        <label for="new-assignee">Assigned To:</label>
+        <input type="text" id="new-assignee" required>
+        <label for="new-priority">Priority:</label>
+        <select id="new-priority" required>
+          <option value="">--Select Priority--</option>
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+        <button type="submit">Add Task</button>
+      </form>
+    </div>
+    <div class="task-list">
+      <h2>Task List</h2>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

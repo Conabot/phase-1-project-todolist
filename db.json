@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "task": "Buy groceries",
+      "due": "2023-05-16",
+      "assigned": "Jane",
+      "priority": "Medium",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "task": "Finish project",
+      "due": "2023-05-18",
+      "assigned": "Mark",
+      "priority": "High",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "task": "Call doctor",
+      "due": "2023-05-20",
+      "assigned": "Alice",
+      "priority": "Low",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "task": "Clean house",
+      "due": "2023-05-22",
+      "assigned": "Bob",
+      "priority": "Medium",
+      "completed": false
+    },
+    {
+      "task": "Pick up the dog",
+      "due": "2023-05-19",
+      "assigned": "Henry",
+      "priority": "Medium",
+      "completed": false,
+      "id": 6
+    }
+  ]
+}
